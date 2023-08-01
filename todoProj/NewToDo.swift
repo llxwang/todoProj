@@ -27,13 +27,13 @@ struct NewToDo: View {
             Button(action: {
               
             }) {
-                Text("Add")
+                Text("Add task")
             }
             .padding()
         }
     }
 }
-
+//commit//
 struct NewToDo_Previews: PreviewProvider {
     static var previews: some View {
         NewToDo(title: "", isImportant: false)
