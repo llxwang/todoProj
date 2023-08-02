@@ -11,7 +11,7 @@
 		EA99B0E62A797B9700F623DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA99B0E52A797B9700F623DD /* ContentView.swift */; };
 		EA99B0E82A797B9A00F623DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA99B0E72A797B9A00F623DD /* Assets.xcassets */; };
 		EA99B0EB2A797B9A00F623DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA99B0EA2A797B9A00F623DD /* Preview Assets.xcassets */; };
-		EA99B0F22A797BCB00F623DD /* todoitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA99B0F12A797BCB00F623DD /* todoitem.swift */; };
+		EA99B0F22A797BCB00F623DD /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA99B0F12A797BCB00F623DD /* ToDoItem.swift */; };
 		EA99B0F42A797F1700F623DD /* NewToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA99B0F32A797F1700F623DD /* NewToDo.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +21,7 @@
 		EA99B0E52A797B9700F623DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA99B0E72A797B9A00F623DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA99B0EA2A797B9A00F623DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EA99B0F12A797BCB00F623DD /* todoitem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoitem.swift; sourceTree = "<group>"; };
+		EA99B0F12A797BCB00F623DD /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		EA99B0F32A797F1700F623DD /* NewToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +58,7 @@
 				EA99B0E32A797B9700F623DD /* todoProjApp.swift */,
 				EA99B0E52A797B9700F623DD /* ContentView.swift */,
 				EA99B0F32A797F1700F623DD /* NewToDo.swift */,
-				EA99B0F12A797BCB00F623DD /* todoitem.swift */,
+				EA99B0F12A797BCB00F623DD /* ToDoItem.swift */,
 				EA99B0E72A797B9A00F623DD /* Assets.xcassets */,
 				EA99B0E92A797B9A00F623DD /* Preview Content */,
 			);
@@ -146,7 +146,7 @@
 				EA99B0F42A797F1700F623DD /* NewToDo.swift in Sources */,
 				EA99B0E62A797B9700F623DD /* ContentView.swift in Sources */,
 				EA99B0E42A797B9700F623DD /* todoProjApp.swift in Sources */,
-				EA99B0F22A797BCB00F623DD /* todoitem.swift in Sources */,
+				EA99B0F22A797BCB00F623DD /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

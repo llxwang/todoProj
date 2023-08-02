@@ -7,7 +7,10 @@
 
 import SwiftUI
 
+
 struct NewToDo: View {
+    @Binding var toDoItems: [ToDoItem]
+    @Binding var showNewTask : Bool
     @State var title: String
     @State var isImportant: Bool
     var body: some View {
@@ -25,17 +28,24 @@ struct NewToDo: View {
                     .padding()
                         }
             Button(action: {
-              
+                self.addTask(title: self.title, isImportant: self.isImportant)
+                self.showNewTask = false
             }) {
                 Text("Add task")
             }
             .padding()
         }
+        
     }
+    private func addTask(title: String, isImportant: Bool = false) {
+            
+            let task = ToDoItem(title: title, isImportant: isImportant)
+            toDoItems.append(task)
+        }
 }
-//commit//
+
 struct NewToDo_Previews: PreviewProvider {
     static var previews: some View {
-        NewToDo(title: "", isImportant: false)
+        NewToDo(toDoItems: .constant([]), showNewTask: .constant(true), title: "", isImportant: false)
     }
 }
